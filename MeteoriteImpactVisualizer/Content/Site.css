@@ -1,0 +1,53 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    background-image:url("Images/nightsky.jpg");
+}
+
+#topNavbar{
+    background-color:#000 !important;
+    color:lightskyblue !important;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 2800px;
+}
+
+#googleMap{
+    min-height:100px;
+}
+
+#filterTable, th, td{
+    width:70%;
+    border-collapse:collapse;
+    margin:0px auto;
+}
+
+#contentFrame{
+    width:100%;
+    height:60%;
+    background-color:#fff;
+    margin-top:30px;
+    border-radius:20px;
+}
+
+
+
+   
+

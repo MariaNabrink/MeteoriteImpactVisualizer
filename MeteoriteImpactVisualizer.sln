@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeteoriteImpactVisualizer", "MeteoriteImpactVisualizer\MeteoriteImpactVisualizer.csproj", "{778184A0-B797-4AC9-9B35-879B5326B84C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "DataAccess\DataAccess.csproj", "{69610E7B-F89E-45D3-858B-F943B9FEFEAA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{778184A0-B797-4AC9-9B35-879B5326B84C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{778184A0-B797-4AC9-9B35-879B5326B84C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{778184A0-B797-4AC9-9B35-879B5326B84C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{778184A0-B797-4AC9-9B35-879B5326B84C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69610E7B-F89E-45D3-858B-F943B9FEFEAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69610E7B-F89E-45D3-858B-F943B9FEFEAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69610E7B-F89E-45D3-858B-F943B9FEFEAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69610E7B-F89E-45D3-858B-F943B9FEFEAA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

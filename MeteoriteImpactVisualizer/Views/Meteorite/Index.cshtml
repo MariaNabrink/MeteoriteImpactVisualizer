@@ -1,0 +1,50 @@
+﻿
+@{
+    ViewBag.Title = "MeteoriteVisualizer";
+}
+
+
+<script src="~/Scripts/jquery-2.1.4.min.js"></script>
+<script src="~/Scripts/bootstrap.min.js"></script>
+<script src="~/CustomScripts/googleMaps.js"></script>
+<<script src="https://maps.googleapis.com/maps/api/js?key=APIKey&signed_in=true&callback=initializeMap" async defer></script>
+
+
+<link rel="stylesheet" type="text/css" href="~/Content/Site.css" />
+<link rel="stylesheet" type="text/css" href="~/Content/bootstrap.min.css" />
+
+<div id="contentFrame">
+
+    <table id="filterTable">
+        <tr>
+            <th><h4>Year:</h4></th>
+            <th></th>
+            <th><h4>Mass:</h4></th>
+        </tr>
+        <tr>
+            <td style="padding-right:10px">
+                <input type="text" onfocus="(this.type='date')" name="" placeholder="from" />
+            </td>
+            <td style="padding-right:30px">
+                <input type="text" onfocus="(this.type='date')" name="" placeholder="to" />
+            </td>
+
+            <td style="padding-right:10px">
+                <input type="number" name="" placeholder="from" />
+            </td>
+            <td style="padding-right:30px">
+                <input type="number" name="" placeholder="to" />
+            </td>
+
+            <td>
+                <button id="filterButton" type="button" class="btn btn-default btn-sm">
+                    <span class="glyphicon glyphicon-search"></span>
+                </button>
+            </td>
+        </tr>
+    </table>
+
+    <div id="googleMap" style="min-height:600px; margin:60px 30px 60px; border-radius:20px;">
+    </div>
+
+</div>
